@@ -14,7 +14,8 @@ async function start() {
   const faceMatcher = new faceapi.FaceMatcher(labeledFaceDescriptors, 0.6)
   let image
   let canvas
-  document.body.append('Loaded')
+  alert('Pronto! pode testar agora!')
+  // document.body.append('Loaded')
   imageUpload.addEventListener('change', async () => {
     if (image) image.remove()
     if (canvas) canvas.remove()
