@@ -49,7 +49,8 @@ function loadLabeledImages() {
    'Daniel Hwang',
    'Xicaaaaa',
    'Daniel Cortez',
-   'Freddy Mercury']
+   'Freddy Mercury',
+   'Willian Mentor']
   return Promise.all(
     labels.map(async label => {
       const descriptions = []
